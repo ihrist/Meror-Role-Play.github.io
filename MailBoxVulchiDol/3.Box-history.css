@@ -1,0 +1,21 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url('decor.ttf')
+}
+body{
+    background: url("img/scroll-letters.png");
+    background-size: 1200px 700px;
+}
+.letter-links a{
+    text-decoration: none;
+    color: saddlebrown;
+    text-shadow: black 3px 3px 6px;
+    font-family: myFirstFont;
+    font-size: 20px;
+    position: relative;
+    left: 350px;
+    top: 100px;
+}
+.letter-links li{
+    padding-top: 10px;
+}

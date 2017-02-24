@@ -1,0 +1,61 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url('decor.ttf')
+}
+body{
+    background-image: url("img/table-background.png");
+
+    background-size: 1299px 800px ;
+}
+body .message{
+
+    width: 700px;
+    height: 700px;
+    float: right;
+    margin-right:70px;
+    background-image: url("img/letter-background.png");
+    background-size:700px 700px ;
+}
+.box-letters{
+
+    width: 450px;
+    height: 550px;
+    float: right;
+    margin-right:20px;
+    background-image: url("img/box.png");
+    background-size:450px 550px ;
+    float: left;
+    position: relative;
+    top: 180px;
+}
+.opening-box{
+        position: relative;
+        top: 350px;
+        left: 190px;
+    padding: 20px;
+    color: transparent;
+}
+.merror-image{
+    width: 230px;
+    height: 130px;
+    background: url("img/meror.png");
+    background-size: 230px 130px;
+    position: relative;
+    left:500px;
+    top:35px;
+
+}
+.message p{
+    display:inline-block;
+    width: 600px;
+    position: relative;
+    top: 150px;
+    left: 70px;
+    text-align: center;
+    text-shadow: #fff 6px 6px 8px;
+    letter-spacing: 0.5px;
+    font-family: myFirstFont;
+    font-size: 18px;
+    font-weight: 800;
+    word-wrap: break-word;
+}

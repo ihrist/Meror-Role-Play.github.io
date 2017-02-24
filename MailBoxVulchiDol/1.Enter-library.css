@@ -1,0 +1,31 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url('decor.ttf')
+}
+body{
+    background-image:url("img/Biblio.png");
+    background-size: 1300px 660px;
+    text-align: center;
+}
+body a{
+   color: transparent;
+    
+    padding: 45px 25px 45px 25px;
+    position: relative;
+    top: 340px;
+    left:115px;
+}
+.text{
+    width: 490px;
+    height: 330px;
+    position:relative;
+    left:120px;
+    top:20px;
+    font-family: myFirstFont, sans-serif;
+    font-weight: bold;
+    font-size: 21px;
+
+    text-shadow: #94c258 3px -2px;
+
+
+}
