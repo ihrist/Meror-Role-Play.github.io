@@ -1,0 +1,10 @@
+body{
+    background: url("img/bird.gif");
+    background-size: cover ;
+}
+body a {
+    position: relative;
+    left: 740px;
+    top:240px;
+    color: transparent;
+}

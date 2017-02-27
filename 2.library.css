@@ -10,10 +10,10 @@ body{
 body .message{
 
     width: 700px;
-    height: 700px;
+    height: 720px;
     float: right;
     margin-right:70px;
-    background-image: url("img/letter-background.png");
+    background: url("img/letter-background.png");
     background-size:700px 700px ;
 }
 .box-letters{
